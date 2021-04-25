@@ -14,5 +14,5 @@ def get_audio_list(path):
     write_to_file(path,res)
     return res
     
-path_to_audios = r'...' #Вставить свой путь
+path_to_audios = r'C:\Users\Dioneya\Downloads' #Вставить свой путь
 print(get_audio_list(path_to_audios)) 
